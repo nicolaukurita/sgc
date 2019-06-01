@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/sgc?useSSL=false&useTimezone=true&serverTimezone=UTC
+    username: sgc_user
+    password: sgc_pass
+server:
+  port: 9191
